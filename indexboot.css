@@ -1,0 +1,29 @@
+.navbar-brand {
+    white-space: normal;
+    text-align: center;
+}
+
+
+
+.carousel-inner img {
+    max-height: 500px;
+    }
+
+.site-footer {
+    height: 150px;
+}
+
+.iconos a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.iconos a i:hover {
+    color: aqua;
+    transform: scale(1.1);
+    transition: ease-in-out .1s;
+}
+
+/*fontawesome.com*/
