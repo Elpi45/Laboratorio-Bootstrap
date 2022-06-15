@@ -46,11 +46,54 @@
           </nav>
     </header> 
 
-    <section>
-        <label for="usercoment">INGRESE SU DOMICILIO</label> <br>
-        <textarea name="usercoment" id="usercoment" cols="30" rows="10"></textarea>
-    </section>
+    <main>
+      <article class="formulario">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Calle</label>
+            <input type="text" class="form-control" id="" placeholder="San Martin">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Numero</label>
+            <input type="password" class="form-control" id="" placeholder="....">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Piso</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Numero">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Departamento</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="1B">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Las Heras">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Provincia</label>
+            <select id="inputState" class="form-select">
+              <option selected>Elige...</option>
+              <option>Mendoza</option>
+              <option>Cordoba</option>
+              <option>San Juan</option>
+              <option>San Luis</option>
+              <option>Neuquen</option>
+              <option>La Rioja</option>
+              
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Código postal</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+         <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </article>
+    </main>
 
+    
     <footer class="site-footer bg-dark text-white text-center pt-4">
         
         <div class="iconos">

@@ -1,9 +1,13 @@
+/* INDEX */
 .navbar-brand {
     white-space: normal;
     text-align: center;
 }
 
-
+.carrusel-coder{
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: #212529;
+}
 
 .carousel-inner img {
     max-height: 500px;
@@ -26,4 +30,32 @@
     transition: ease-in-out .1s;
 }
 
+/* T ANALISIS CLINICOS */
+
+.formulario {
+    padding: 4rem 4rem 1rem 4rem;
+}
+
+.input-group{
+    padding: 0 0 2rem 0;
+}
+
+.boton {
+    padding: 0 0 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* NOSOTROS TRABAJANDO */
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+   }
+.video__1 {
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #212529;
+        list-style: none;
+    }
 /*fontawesome.com*/
