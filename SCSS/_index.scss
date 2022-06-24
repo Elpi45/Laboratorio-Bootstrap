@@ -1,0 +1,33 @@
+/* INDEX */
+.site-header {
+    .navbar-brand {
+        white-space: normal;
+        text-align: center;
+    }
+}
+
+/* uso de map-get*/
+
+.carrusel-coder{
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: map-get($colores, "gris");
+    .carousel-inner img {
+        max-height: 500px;
+        }
+}
+
+/* uso de mixin-include */
+
+.site-footer {
+    height: 150px;
+    .iconos a {
+        text-decoration: none;
+        color: map-get($colores, "blanco");
+        @include ico;
+        .icono a i:hover {
+            color: map-get($colores, "aguamarina");
+            transform: scale(1.1);
+            transition: ease-in-out .1s;
+        }
+    }
+}

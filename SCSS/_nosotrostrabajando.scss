@@ -1,0 +1,12 @@
+/* NOSOTROS TRABAJANDO */
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+    &__1 {
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: map-get($colores, "gris");
+        list-style: none;
+    }
+   }
