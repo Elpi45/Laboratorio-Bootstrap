@@ -1,4 +1,5 @@
 /* INDEX */
+
 .site-header .navbar-brand {
   white-space: normal;
   text-align: center;
@@ -19,19 +20,31 @@
   height: 150px;
 }
 
-.site-footer .iconos a {
+.iconos a {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
   margin: 10px;
   font-size: 25px;
 }
 
-.site-footer .iconos a .icono a i:hover {
-  color: #68ffff;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: ease-in-out .1s;
+.iconos a i:hover {
+  color: aqua;
+  transform: scale(1.1);
   transition: ease-in-out .1s;
+}
+
+/*T COVID 19*/
+
+.titulocovid{
+  text-align: center;
+  padding: 3rem;
+}
+
+/*EXTRACIONES A DOMICILIO*/
+
+.puntos {
+  text-align: center;
+  padding: 0 10rem;
 }
 
 /* T ANALISIS CLINICOS */
@@ -39,11 +52,11 @@
   padding: 4rem 4rem 1rem 4rem;
 }
 
-.formulario .input-group {
+.input-group {
   padding: 0 0 2rem 0;
 }
 
-.formulario .boton {
+.boton {
   padding: 0 0 3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,6 +67,7 @@
 }
 
 /* NOSOTROS TRABAJANDO */
+
 .video {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,4 +83,41 @@
   background-color: #212529;
   list-style: none;
 }
+
+/*INDICACIONES*/
+
+.carruselindi {
+  padding: 1rem 4rem 1rem 4rem;
+  width: 80%;
+  display: flex;
+
+}
+
+
+/*CONTACTO*/
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor__mapa {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+
+
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */
+/*coolors.co*/
+/*photopea*/
+/*pexel*/
